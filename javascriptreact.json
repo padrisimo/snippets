@@ -42,5 +42,10 @@
 			"export default ${1:Component};"
 		],
 		"description": "React Functional Component"
-	}
+	},
+	"Link react-router-dom": {
+		"prefix": "Link",
+		"body": "<Link to=\"$1\">$2</Link> ",
+		"description": "Link react-router-dom"
+	},
 }
